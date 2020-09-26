@@ -24,10 +24,10 @@ window:
   # Units are physical pixels; this is not DPI aware.
   # (change requires restart)
   padding:
-    x: 0
-    y: 0
+    x: 5
+    y: 5
 
-  decorations: buttonless
+  decorations: full
 
 background_opacity: 0.95
 
@@ -61,7 +61,7 @@ font:
     # style: Italic
 
   # Point size of the font
-  size: 17.0
+  size: 12.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.

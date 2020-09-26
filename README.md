@@ -8,5 +8,15 @@ My personal environment for Web development specifically focused on JavaScript/R
 * [Neovim](https://github.com/neovim/neovim)
 * [Tmux](https://github.com/tmux/tmux)
 
+# Plugins
+
+## Zsh
+
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+
+
+## Neovim
+
 # How it looks like?
-![Screenhshot](https://raw.githubusercontent.com/semanser/dotfiles/master/screenshots/screenshot.png)
+![Screenhshot](https://raw.githubusercontent.com/ptena/dotfiles/master/screenshots/screenshot.png)

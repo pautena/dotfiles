@@ -1,7 +1,10 @@
-export ZSH=/Users/semanser/.oh-my-zsh
-export LC_ALL="ru_RU.UTF-8"
-export LANG="ru_RU.UTF-8"
+export ZSH=/Users/ptena/.oh-my-zsh
+export LC_ALL="en_GB.UTF-8"
+export LANG="en_GB.UTF-8"
 export ZSH_DISABLE_COMPFIX=true
+
+
+
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -94,11 +97,10 @@ export PATH=/usr/local/opt/ruby/bin:$PATH
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-source $(brew --prefix asdf)/asdf.sh
 export TERM="xterm-256color"
 
 # Setup working directory 
-# cd /Users/semanser/Desktop/Programming
+# cd /Users/ptena/Desktop/Programming
 
 # Run tmux automatically on zsh lunch
 

@@ -94,7 +94,7 @@ call plug#begin('~/.vim/plugged')
   let g:highlightedyank_highlight_duration = 500
 
 	" Async Vim plugin for showing your outdated Vim plugins
-  Plug 'semanser/vim-outdated-plugins'
+  Plug 'ptena/vim-outdated-plugins'
 
   " Vim plugin for selectively illuminating other uses of current word under the cursor
   Plug 'RRethy/vim-illuminate'
