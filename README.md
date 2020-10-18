@@ -22,6 +22,10 @@ My personal environment for programming.
 
 Vim text editor. Download [here](https://neovim.io/)
 
+### Plugins
+
+Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
+
 
 ## Font
 
