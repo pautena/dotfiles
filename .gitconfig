@@ -2,7 +2,7 @@
 	name = Pau Tena Vidal
 	email = pau.tena@paack.co
 [core]
-	excludesfile = /Users/ptena/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = false
 	filemode = false
 [diff]

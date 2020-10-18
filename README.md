@@ -1,22 +1,30 @@
-# What's it?
-My personal environment for Web development specifically focused on JavaScript/React and Rust programming.
+# My programming setup
 
-# What's inside?
+## What's it?
+My personal environment for programming.
+
+## What's inside?
 
 * [Alacritty](https://github.com/jwilm/alacritty)
 * [zsh](https://www.zsh.org/) + [Oh My Zsh](https://ohmyz.sh/)
 * [Neovim](https://github.com/neovim/neovim)
 * [Tmux](https://github.com/tmux/tmux)
 
-# Plugins
 
 ## Zsh
 
-- zsh-autosuggestions
-- zsh-syntax-highlighting
+### Plugins
 
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ## Neovim
 
-# How it looks like?
-![Screenhshot](https://raw.githubusercontent.com/ptena/dotfiles/master/screenshots/screenshot.png)
+Vim text editor. Download [here](https://neovim.io/)
+
+
+## Font
+
+Source code font is the used font. You can download from [here](https://github.com/adobe-fonts/source-code-pro)
+
+
