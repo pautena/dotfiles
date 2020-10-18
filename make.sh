@@ -23,11 +23,13 @@ for file in $files; do
   ln -s $dir/$file ~/$file
 done
 
-# Sourcing vim config to neovim directory
-# (https://github.com/neovim/neovim/issues/3530)
-echo "Creaging symlink from .vimrc to ~/.config/nvim/init.vim"
-ln -s .vimrc ~/.config/nvim/init.vim
+
 
 echo "Creating symlink to coc-settings.json in ~/.config/nvim/coc-settings.json"
 ln -s $dir/coc-settings.json ~/.config/nvim/coc-settings.json
+
+# Sourcing vim config to neovim directory
+# (https://github.com/neovim/neovim/issues/3530)
+echo "Creaging symlink from .vimrc to ~/.config/nvim/init.vim"
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 

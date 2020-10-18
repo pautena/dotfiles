@@ -22,3 +22,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
 call plug#end()
 
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
+
+let mapleader = " "
+nmap <Leader>nt :NERDTreeFind<CR>
