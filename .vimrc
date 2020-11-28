@@ -25,30 +25,22 @@ call plug#begin('~/.vim/plugged')
   " Browse files
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'scrooloose/nerdtree'
-
-  " Deoplete & TabNine
-  if has('nvim')
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  else
-    Plug 'Shougo/deoplete.nvim'
-    Plug 'roxma/nvim-yarp'
-    Plug 'roxma/vim-hug-neovim-rpc'
-  endif
-  let g:deoplete#enable_at_startup = 1
-
-  if has('win32') || has('win64')
-    Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
-  else
-    Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
-  endif
   
   " Status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
   " Code format
-  Plug 'ianks/vim-tsx'
-  Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  Plug 'yuezk/vim-js'
+  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'maxmellon/vim-jsx-pretty'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+  Plug 'jparise/vim-graphql'
+
+  Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} " Python syntax
 
 call plug#end()
 
@@ -79,6 +71,9 @@ nmap <Leader>gp :GitGutterPreviewHunk<CR>
 " File browser
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>cp :CtrlP<CR>
+
+" Code format
+
 
 
 " Startup
