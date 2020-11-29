@@ -26,6 +26,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'scrooloose/nerdtree'
   
+  Plug 'universal-ctags/ctags'
+  Plug 'majutsushi/tagbar'
+  
   " Status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
@@ -48,6 +51,9 @@ call plug#begin('~/.vim/plugged')
 
 call plug#end()
 
+" Key mappings
+let mapleader = " "
+
 " Theme
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
@@ -55,12 +61,6 @@ let g:gruvbox_contrast_dark = "hard"
 let g:airline_theme="deus"
 let g:airline_powerline_fonts=1
 
-" File browser
-let NERDTreeShowHidden=1
-let g:ctrlp_show_hidden=1
-
-" Key mappings
-let mapleader = " "
 
 " Plugins management
 nmap <Leader>pi :PlugInstall<CR>
@@ -73,12 +73,11 @@ nmap <Leader>gd :Git diff<CR>
 nmap <Leader>gp :GitGutterPreviewHunk<CR>
 
 " File browser
+let NERDTreeShowHidden=1
+let g:ctrlp_show_hidden=1
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>cp :CtrlP<CR>
-
-" Code format
-
-
+nmap <Leader>tb :TagbarToggle<CR>
 
 " Startup
 function! StartUp()

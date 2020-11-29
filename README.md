@@ -26,6 +26,18 @@ Vim text editor. Download [here](https://neovim.io/)
 
 Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
 
+#### Dependencies
+
+- Universal-ctags. Instal using brew
+```
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+```
+
+or 
+
+```
+sudo apt-get install exuberant-ctags
+```
 
 ## Font
 
