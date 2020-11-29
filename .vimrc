@@ -38,9 +38,13 @@ call plug#begin('~/.vim/plugged')
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
-  Plug 'jparise/vim-graphql'
 
   Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} " Python syntax
+
+  Plug 'cespare/vim-toml'
+
+  Plug 'jparise/vim-graphql'
+
 
 call plug#end()
 
