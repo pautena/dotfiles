@@ -58,8 +58,26 @@ let mapleader = " "
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 
+" Status bar & buffer access
 let g:airline_theme="deus"
 let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+
+nnoremap <Leader>bl :ls<CR>
+nmap <Leader>bp :bp<CR>
+nmap <Leader>bn :bn<CR>
+nmap <Leader>bg :e#<CR>
+nmap <Leader>1 :1b<CR>
+nmap <Leader>2 :2b<CR>
+nmap <Leader>3 :3b<CR>
+nmap <Leader>4 :4b<CR>
+nmap <Leader>5 :5b<CR>
+nmap <Leader>6 :6b<CR>
+nmap <Leader>7 :7b<CR>
+nmap <Leader>8 :8b<CR>
+nmap <Leader>9 :9b<CR>
+nmap <Leader>0 :10b<CR>
 
 
 " Plugins management
@@ -76,12 +94,16 @@ nmap <Leader>gp :GitGutterPreviewHunk<CR>
 let NERDTreeShowHidden=1
 let g:ctrlp_show_hidden=1
 nmap <Leader>nt :NERDTreeFind<CR>
+nmap <Leader>nc :NERDTreeClose<CR>
 nmap <Leader>cp :CtrlP<CR>
 nmap <Leader>tb :TagbarToggle<CR>
 
+
 " Startup
 function! StartUp()
-  NERDTree
+  if 0 == argc()
+    NERDTree
+  endif
 endfunction
 
 autocmd VimEnter * call StartUp()
