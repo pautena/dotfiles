@@ -92,6 +92,8 @@ nmap <Leader>gp :GitGutterPreviewHunk<CR>
 
 " File browser
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+let NERDTreeMinimalUI=1
 let g:ctrlp_show_hidden=1
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>nc :NERDTreeClose<CR>
