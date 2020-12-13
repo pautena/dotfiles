@@ -18,6 +18,8 @@ or
 sudo apt-get install exuberant-ctags
 ```
 
+- **Node +12**
+
 ## Cheatsheet
 
 - [PDF](./assets/vim-cheatsheet.pdf)
