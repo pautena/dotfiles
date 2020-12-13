@@ -37,7 +37,8 @@ call plug#begin('~/.vim/plugged')
 
   let g:coc_global_extensions = [
   \ 'coc-json',
-  \ 'coc-pyright'
+  \ 'coc-pyright',
+  \ 'coc-tsserver'
   \ ]
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
