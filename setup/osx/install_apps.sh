@@ -12,8 +12,10 @@ brew tap homebrew/cask-versions homebrew/cask-fonts
 
 declare -a brew_cask_apps=(
   'alacritty'
-  'android-file-transter'
+  'alfred'
+  'android-file-transfer'
   'android-studio'
+  'brave-browser'
   'docker'
   'java'
   'keybase'
@@ -24,16 +26,16 @@ declare -a brew_cask_apps=(
 )
 
 for app in "${brew_cask_apps[@]}"; do
-  brew cask install "$app"
+  brew install --cask "$app"
 done
 
 declare -a brew_cli_tools=(
   'cmake'
   'coreutils'
-  'ctags'
   'ffmpeg'
   'git'
   'htop'
+  'mas'
   'neovim'
   'node'
   'nvm'
@@ -42,13 +44,16 @@ declare -a brew_cli_tools=(
   'watchman'
   'yarn'
   'zsh'
-  'zsh-autosuggestions'
-  'zsh-syntax-highlighting'
 )
 
 for tool in "${brew_cli_tools[@]}"; do
   brew install "$tool"
 done
+
+###############################################################################
+# Other brew dependencies                                                 #
+###############################################################################
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 ###############################################################################
 # Install Mac App Store apps                                                  #
@@ -60,6 +65,18 @@ declare -a mas_apps=(
 
 for app in "${mas_apps[@]}"; do
   mas install "$app"
+done
+
+###############################################################################
+# Install fonts                                                  #
+###############################################################################
+
+declare -a fonts=(
+  'homebrew/cask-fonts/font-source-code-pro'
+)
+
+for font in "${fonts[@]}"; do
+  brew install --cask "$font"
 done
 
 ###############################################################################
