@@ -34,6 +34,7 @@ declare -a brew_cli_tools=(
   'coreutils'
   'ffmpeg'
   'git'
+  'gnupg'
   'htop'
   'mas'
   'neovim'
@@ -51,11 +52,6 @@ for tool in "${brew_cli_tools[@]}"; do
 done
 
 ###############################################################################
-# Other brew dependencies                                                 #
-###############################################################################
-brew install --HEAD universal-ctags/universal-ctags/universal-ctags
-
-###############################################################################
 # Install Mac App Store apps                                                  #
 ###############################################################################
 
@@ -66,6 +62,19 @@ declare -a mas_apps=(
 for app in "${mas_apps[@]}"; do
   mas install "$app"
 done
+
+###############################################################################
+# Setup xcode                                                #
+###############################################################################
+sudo xcodebuild -license
+sudo xcode-select --switch /Library/Developer/CommandLineTools
+
+###############################################################################
+# Other dependencies                                                 #
+###############################################################################
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+sudo gem install cocoapods
+
 
 ###############################################################################
 # Install fonts                                                  #
