@@ -36,6 +36,7 @@ declare -a brew_cli_tools=(
   'git'
   'gnupg'
   'htop'
+  'jq'
   'mas'
   'neovim'
   'node'
