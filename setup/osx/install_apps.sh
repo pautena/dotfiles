@@ -38,6 +38,7 @@ declare -a brew_cli_tools=(
   'htop'
   'jq'
   'mas'
+  'mongodb-compass'
   'neovim'
   'node'
   'nvm'

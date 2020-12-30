@@ -113,3 +113,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg[red]%}"
 
 if [ "$TMUX" = "" ]; then tmux; fi
+
+export PATH="$HOME/.poetry/bin:$PATH"
