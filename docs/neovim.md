@@ -4,6 +4,17 @@ Vim text editor. Download [here](https://neovim.io/)
 
 ![my-environment](./images/noevim.png)
 
+## Installing/Upgrade
+
+[Instructions here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+- Mac: TODO
+
+- Ubuntu: 
+
+```
+sudo apt upgrade neovim
+```
 
 ## Dependencies
 
@@ -19,6 +30,7 @@ sudo apt-get install exuberant-ctags
 ```
 
 - **Node +12**
+- **Plugins manager**: [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Cheatsheet
 
@@ -30,8 +42,6 @@ sudo apt-get install exuberant-ctags
 The config for neovim is inside the file [.vimrc](../.vimrc)
 
 ## Plugins
-
-_Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)_
 
 - **morhetz/gruvbox:** Theme maanger
 - **tpope/vim-fugitive:**
