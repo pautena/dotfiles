@@ -101,7 +101,7 @@ let NERDTreeQuitOnOpen=1
 let NERDTreeMinimalUI=1
 let g:ctrlp_show_hidden=1
 let g:ctrlp_custom_ignore= {
-  \ 'dir' : '\v.(node_modules|env|public|build|tmp|.git)',
+  \ 'dir' : '\v.(node_modules|env|public|build|tmp|.git|Pods|.gradle)',
   \ 'file' : '\v.(.DS_Store|.pyc)'
   \ }
 nmap <Leader>nt :NERDTreeFind<CR>
