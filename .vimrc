@@ -34,6 +34,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline-themes'
 
   " Code format
+
+  let g:coc_global_extensions = [
+  \ 'coc-json',
+  \ 'coc-pyright',
+  \ 'coc-tsserver'
+  \ ]
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   Plug 'yuezk/vim-js'
@@ -47,7 +53,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'cespare/vim-toml'
 
   Plug 'jparise/vim-graphql'
-
 
 call plug#end()
 
@@ -103,6 +108,8 @@ nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>nc :NERDTreeClose<CR>
 nmap <Leader>cp :CtrlP<CR>
 nmap <Leader>tb :TagbarToggle<CR>
+
+
 
 
 " Startup
