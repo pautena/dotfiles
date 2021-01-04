@@ -34,7 +34,10 @@ sudo apt-get install exuberant-ctags
 
 ## Cheatsheet
 
-- [PDF](./assets/vim-cheatsheet.pdf)
+- [PDF](./assets/vim/vim-cheatsheet.pdf)
+- V2:
+    - [PDF](./assets/vim/vim-poster.pdf)
+    - [PNG](./assets/vim/vim-poster.png)
 - [vim.rtorr.com](https://vim.rtorr.com/)
 
 ## Config file
