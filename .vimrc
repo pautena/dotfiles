@@ -73,6 +73,7 @@ nnoremap <Leader>bl :ls<CR>
 nmap <Leader>bp :bp<CR>
 nmap <Leader>bn :bn<CR>
 nmap <Leader>bg :e#<CR>
+nmap <Leader>br :bd<CR>
 nmap <Leader>1 :1b<CR>
 nmap <Leader>2 :2b<CR>
 nmap <Leader>3 :3b<CR>
@@ -90,10 +91,8 @@ nmap <Leader>pi :PlugInstall<CR>
 nmap <Leader>pu :PlugUpdate<CR>
 
 " Git
-nmap <Leader>gs :Git<CR>
-nmap <Leader>gc :GitCheckout<CR>
 nmap <Leader>gd :Git diff<CR>
-nmap <Leader>gp :GitGutterPreviewHunk<CR>
+nmap <Leader>gp :Git push<CR>
 
 " File browser
 let NERDTreeShowHidden=1
