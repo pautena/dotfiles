@@ -34,25 +34,29 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline-themes'
 
   " Code format
-
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-pyright',
   \ 'coc-tsserver'
   \ ]
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+  " Javascript & Typescript syntax
   Plug 'yuezk/vim-js'
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
+  " Python syntax
+  Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
-  Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} " Python syntax
-
+  " Other syntax
   Plug 'cespare/vim-toml'
-
   Plug 'jparise/vim-graphql'
+
+  " End syntax
+  
+  Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
