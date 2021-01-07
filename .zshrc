@@ -114,4 +114,14 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg[red]%}"
 
 if [ "$TMUX" = "" ]; then tmux; fi
 
+# Setup Python Poetry
 export PATH="$HOME/.poetry/bin:$PATH"
+
+# Loads Android tools
+export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+
+# Setup Go
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$PATH:$GOBIN"
+

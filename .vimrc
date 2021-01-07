@@ -38,7 +38,8 @@ call plug#begin('~/.vim/plugged')
   let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-pyright',
-  \ 'coc-tsserver'
+  \ 'coc-tsserver',
+  \ 'coc-go'
   \ ]
 
   " Javascript & Typescript syntax
@@ -49,6 +50,9 @@ call plug#begin('~/.vim/plugged')
 
   " Python syntax
   Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+
+  " Go syntax and tools
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
   " Other syntax
   Plug 'cespare/vim-toml'
