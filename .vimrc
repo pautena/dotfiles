@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')
 
   " Git
   Plug 'tpope/vim-fugitive'
+  Plug 'sodapopcan/vim-twiggy'
   Plug 'airblade/vim-gitgutter'
   
   " Browse files
@@ -74,10 +75,12 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 nnoremap <Leader>bl :ls<CR>
-nmap <Leader>bp :bp<CR>
-nmap <Leader>bn :bn<CR>
-nmap <Leader>bg :e#<CR>
-nmap <Leader>br :bd<CR>
+nmap <Leader>bp :bp<CR> " Go to previous buffer
+nmap <Leader>bn :bn<CR> " Go to next buffer
+nmap <Leader>bg :e#<CR> " Go to previous buffer in use
+nmap <Leader>br :bd<CR> " Close current buffer
+nmap <Leader>ba :bufdo bd<CR> " Close all buffers
+nmap <Leader>:%bd|e#<CR> " Close other buffers
 nmap <Leader>1 :1b<CR>
 nmap <Leader>2 :2b<CR>
 nmap <Leader>3 :3b<CR>
@@ -95,12 +98,14 @@ nmap <Leader>pi :PlugInstall<CR>
 nmap <Leader>pu :PlugUpdate<CR>
 
 " Git
+nmap <Leader>gb :Twiggy<CR> " Branch management tool
 nmap <Leader>gd :vertical Gdiff<CR>
 nmap <Leader>gs :vertical Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
 let g:fugitive_layout = { "window": "aboveleft 50vsplit" }
 
 " File browser
+let NERDTreeWinSize=40
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 let NERDTreeMinimalUI=1
