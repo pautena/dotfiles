@@ -95,8 +95,10 @@ nmap <Leader>pi :PlugInstall<CR>
 nmap <Leader>pu :PlugUpdate<CR>
 
 " Git
-nmap <Leader>gd :Git diff<CR>
+nmap <Leader>gd :vertical Gdiff<CR>
+nmap <Leader>gs :vertical Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
+let g:fugitive_layout = { "window": "aboveleft 50vsplit" }
 
 " File browser
 let NERDTreeShowHidden=1
