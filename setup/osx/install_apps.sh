@@ -44,6 +44,7 @@ declare -a brew_cli_tools=(
   'nvm'
   'tig'
   'tmux'
+  'unclack'
   'watchman'
   'yarn'
   'zsh'
