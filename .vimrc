@@ -41,7 +41,8 @@ call plug#begin('~/.vim/plugged')
   \ 'coc-json',
   \ 'coc-pyright',
   \ 'coc-tsserver',
-  \ 'coc-go'
+  \ 'coc-go',
+  \ 'coc-java'
   \ ]
 
   " Javascript & Typescript syntax
@@ -55,6 +56,9 @@ call plug#begin('~/.vim/plugged')
 
   " Go syntax and tools
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  
+  " Kotlin
+  Plug 'udalov/kotlin-vim'
 
   " Other syntax
   Plug 'cespare/vim-toml'
