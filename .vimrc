@@ -80,12 +80,12 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 nnoremap <Leader>bl :ls<CR>
+nmap <Leader>rr :checktime<CR> " Reload all buffers
 nmap <Leader>bp :bp<CR> " Go to previous buffer
 nmap <Leader>bn :bn<CR> " Go to next buffer
 nmap <Leader>bg :e#<CR> " Go to previous buffer in use
 nmap <Leader>br :bd<CR> " Close current buffer
 nmap <Leader>ba :bufdo bd<CR> " Close all buffers
-nmap <Leader>:%bd|e#<CR> " Close other buffers
 nmap <Leader>1 :1b<CR>
 nmap <Leader>2 :2b<CR>
 nmap <Leader>3 :3b<CR>
