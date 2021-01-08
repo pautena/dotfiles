@@ -22,6 +22,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'sodapopcan/vim-twiggy'
   Plug 'airblade/vim-gitgutter'
+  Plug 'rhysd/conflict-marker.vim' 
   
   " Browse files
   Plug 'ctrlpvim/ctrlp.vim'
