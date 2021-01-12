@@ -30,7 +30,10 @@ call plug#begin('~/.vim/plugged')
   
   Plug 'universal-ctags/ctags'
   Plug 'majutsushi/tagbar'
-  
+
+  " Search and replace
+  Plug 'dkprice/vim-easygrep'
+
   " Status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
