@@ -44,6 +44,7 @@ call plug#begin('~/.vim/plugged')
   \ 'coc-json',
   \ 'coc-pyright',
   \ 'coc-tsserver',
+  \ 'coc-prettier',
   \ 'coc-go',
   \ 'coc-java'
   \ ]
@@ -131,8 +132,8 @@ nmap <Leader>nc :NERDTreeClose<CR>
 nmap <Leader>cp :CtrlP<CR>
 nmap <Leader>tb :TagbarToggle<CR>
 
-
-
+" Code format
+nmap <Leader>ft :CocCommand prettier.formatFile<CR>
 
 " Startup
 function! StartUp()
