@@ -64,6 +64,9 @@ call plug#begin('~/.vim/plugged')
   " Kotlin
   Plug 'udalov/kotlin-vim'
 
+  " CSS
+  Plug 'ap/vim-css-color'
+
   " Other syntax
   Plug 'cespare/vim-toml'
   Plug 'jparise/vim-graphql'
@@ -88,7 +91,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 nnoremap <Leader>bl :ls<CR>
-nmap <Leader>rr :checktime<CR> " Reload all buffers
+nmap <Leader>ct :checktime<CR> " Reload all buffers
 nmap <Leader>bp :bp<CR> " Go to previous buffer
 nmap <Leader>bn :bn<CR> " Go to next buffer
 nmap <Leader>bg :e#<CR> " Go to previous buffer in use
