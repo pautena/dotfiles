@@ -44,7 +44,7 @@ call plug#begin('~/.vim/plugged')
   \ 'coc-json',
   \ 'coc-pyright',
   \ 'coc-tsserver',
-  \ 'coc-prettier',
+  \ 'coc-eslint',
   \ 'coc-go',
   \ 'coc-java'
   \ ]
@@ -54,6 +54,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+  Plug 'leafgarland/typescript-vim'
+  Plug 'peitalin/vim-jsx-typescript' 
 
   " Python syntax
   Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
