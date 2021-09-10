@@ -1,10 +1,9 @@
-[user]
-	name = Pau Tena Vidal
-	email = pau.tena@paack.co
+[include]
+    path = ~/.gitconfig.local
 [core]
-	excludesfile = ~/.gitignore_global
-	autocrlf = false
-	filemode = false
+    excludesfile = ~/.gitignore_global
+    autocrlf = false
+    filemode = false
 [diff]
     tool = vimdiff
 [merge]

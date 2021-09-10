@@ -7,6 +7,7 @@
 dir=~/dotfiles
 olddir=~/dotfiles_old
 files=".alacritty.yml .vimrc .zshrc .gitconfig .tmux.conf"
+local_files=".zshrc.local .gitconfig.local"
 
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
@@ -23,6 +24,10 @@ for file in $files; do
   ln -s $dir/$file ~/$file
 done
 
+echo "Create local config files"
+for file in $local_files; do
+  touch $file
+done
 
 
 echo "Creating symlink to coc-settings.json in ~/.config/nvim/coc-settings.json"
