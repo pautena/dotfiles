@@ -16,7 +16,7 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
   " Themes
-  Plug 'morhetz/gruvbox'
+  Plug 'dracula/vim', { 'as': 'dracula' }
 
   " Git
   Plug 'tpope/vim-fugitive'
@@ -46,7 +46,9 @@ call plug#begin('~/.vim/plugged')
   \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-go',
-  \ 'coc-java'
+  \ 'coc-java',
+  \ 'coc-phpls',
+  \ 'coc-angular', 
   \ ]
 
   " Javascript & Typescript syntax
@@ -59,7 +61,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'peitalin/vim-jsx-typescript' 
 
   " Python syntax
-  Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+  Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins', 'for' :['python', 'vim-plug'] }
 
   " Go syntax and tools
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -73,6 +75,8 @@ call plug#begin('~/.vim/plugged')
   " Other syntax
   Plug 'cespare/vim-toml'
   Plug 'jparise/vim-graphql'
+  Plug 'gisphm/vim-gitignore'
+  Plug 'hashivim/vim-terraform'
 
   " End syntax
   
@@ -84,8 +88,7 @@ call plug#end()
 let mapleader = " "
 
 " Theme
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+colorscheme dracula
 
 " Status bar & buffer access
 let g:airline_theme="deus"

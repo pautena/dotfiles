@@ -35,6 +35,7 @@ declare -a brew_cli_tools=(
   'ffmpeg'
   'git'
   'gnupg'
+  'hashicorp/tap/terraform-ls'
   'htop'
   'jq'
   'mas'

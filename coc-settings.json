@@ -12,5 +12,17 @@
   "explorer.file.root.template": "[fullpath]",
   "explorer.file.autoReveal": false,
   "coc.preferences.formatOnSaveFiletypes": ["tsx","ts","jsx","js","markdown"],
-  "eslint.autoFixOnSave":true
+  "eslint.autoFixOnSave":true,
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": [
+	"terraform",
+	"tf"
+      ],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  }
 }
