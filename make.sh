@@ -26,11 +26,12 @@ done
 
 echo "Create local config files"
 for file in $local_files; do
-  touch $file
+  touch ~/$file
 done
 
 
 echo "Creating symlink to coc-settings.json in ~/.config/nvim/coc-settings.json"
+mkdir -p ~/.config/nvim
 ln -s $dir/coc-settings.json ~/.config/nvim/coc-settings.json
 
 # Sourcing vim config to neovim directory
