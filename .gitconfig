@@ -14,3 +14,9 @@
 [user]
 	email = me@protonmail.com
 	name = Pau Tena
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
