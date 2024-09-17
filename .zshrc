@@ -123,7 +123,6 @@ export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 # Setup Go
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
-export PATH="$PATH:$GOBIN"
+export PATH="$PATH:$GOBIN:/opt/nvim/"
 
 source ~/.zshrc.local
-
