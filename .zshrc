@@ -94,8 +94,10 @@ export EDITOR='nvim'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=/usr/local/opt/ruby/bin:$PATH
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/opt/homebrew/bin"
 
 export TERM="xterm-256color"
 
