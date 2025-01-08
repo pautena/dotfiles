@@ -29,7 +29,7 @@ white   = '#fff1f3'
 TERM = "xterm-256color"
 
 [font]
-size = 9
+size = 12
 
 [font.bold]
 family = "Source Code Pro"

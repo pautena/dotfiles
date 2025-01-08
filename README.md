@@ -17,9 +17,3 @@ My personal programming environment
 
 - [Zsh](docs/zsh.md)
 - [Neovim](docs/neovim.md)
-- [Visual Studio code](docs/visual-studio-code.md)
-
-
-## Setup instructions
- - [Obsidian setup instructions](obsidian://open?vault=Main&file=Programming%2FMy%20programming%20setup)
-
