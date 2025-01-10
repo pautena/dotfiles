@@ -29,6 +29,14 @@ for file in $local_files; do
   touch ~/$file
 done
 
+echo "Setup SO Alacritty config file"
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     ln -s $dir/.alacritty-linux.toml ~/.alacritty.so.toml;;
+    Darwin*)    ln -s $dir/.alacritty-macos.toml ~/.alacritty.so.toml;;
+    *)          echo "Unsupported OS: $unameOut";;
+esac
+
 
 echo "Creating symlink to coc-settings.json in ~/.config/nvim/coc-settings.json"
 mkdir -p ~/.config/nvim

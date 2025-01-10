@@ -1,3 +1,5 @@
+[general]
+import = ['~/.alacritty.so.toml']
 # Default colors
 [colors.primary]
 background = '#2D2A2E'
@@ -24,9 +26,3 @@ blue    = '#f38d70'
 magenta = '#a8a9eb'
 cyan    = '#85dacc'
 white   = '#fff1f3'
-
-[font]
-size = 12
-bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
-italic = { family = "FiraCode Nerd Font Mono", style = "italic" }
-bold_italic = { family = "FiraCode Nerd Font Mono", style = "Bold Italic" }
