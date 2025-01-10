@@ -1,5 +1,6 @@
 [font]
 size = 12
-bold = { family = "FiraCode Nerd Font Mono", style = "SemiBold" }
-italic = { family = "FiraCode Nerd Font Mono", style = "Light" }
-bold_italic = { family = "FiraCode Nerd Font Mono", style = "Light" }
+normal = { family = "JetBrains Mono", style = "Light" }
+bold = { family = "JetBrains Mono", style = "SemiBold" }
+italic = { family = "JetBrains Mono", style = "LightItalic" }
+bold_italic = { family = "JetBrains Mono", style = "Italic" }

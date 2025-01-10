@@ -18,7 +18,7 @@ brew install starship
 
 ### Font
 
-**FiraCode Nerd font** is the used font. You can download from [here](https://www.nerdfonts.com/font-downloads)
+**JetBrains Mono font** is the used font. You can download from [here](https://www.jetbrains.com/lp/mono/)
 
 ## Plugins
 
