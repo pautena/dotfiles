@@ -2,7 +2,7 @@
 
 ## Installation
 
-[Instructions](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+[Instructions](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSrH)
 
 ## Starship
 
@@ -18,7 +18,7 @@ brew install starship
 
 ### Font
 
-**Nerd font** is the used font. You can download from [here](https://www.nerdfonts.com/font-downloads)
+**FiraCode Nerd font** is the used font. You can download from [here](https://www.nerdfonts.com/font-downloads)
 
 ## Plugins
 
