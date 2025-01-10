@@ -47,5 +47,3 @@ export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOBIN:/opt/nvim/"
 
 source ~/.zshrc.local
-
-[[ -s "/Users/pau.tena/.gvm/scripts/gvm" ]] && source "/Users/pau.tena/.gvm/scripts/gvm"
