@@ -1,4 +1,3 @@
-[general]
 import = ['~/.alacritty.so.toml']
 # Default colors
 [colors.primary]
