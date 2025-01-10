@@ -1,18 +1,30 @@
 # Zsh
 
-# Installation
+## Installation
 
 [Instructions](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-# Font
+## Starship
 
-**Source code font** is the used font. You can download from [here](https://github.com/adobe-fonts/source-code-pro)
+[Install Starship](https://starship.rs/#quick-install) with the shell
+```
+curl -sS https://starship.rs/install.sh | sh
+```
 
-### Plugins
+or using brew
+```
+brew install starship
+```
+
+### Font
+
+**Nerd font** is the used font. You can download from [here](https://www.nerdfonts.com/font-downloads)
+
+## Plugins
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-#### Installation
+### Installation
 
 1. Clone the plugin repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)

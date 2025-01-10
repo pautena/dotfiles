@@ -10,6 +10,7 @@ My personal programming environment
 * [Alacritty](https://github.com/jwilm/alacritty)
 * [zsh](https://www.zsh.org/)
 * [Oh My Zsh](https://ohmyz.sh/)
+* [Starship](https://starship.rs/)
 * [Neovim](https://github.com/neovim/neovim)
 * [Tmux](https://github.com/tmux/tmux)
 
@@ -17,9 +18,3 @@ My personal programming environment
 
 - [Zsh](docs/zsh.md)
 - [Neovim](docs/neovim.md)
-- [Visual Studio code](docs/visual-studio-code.md)
-
-
-## Setup instructions
- - [Obsidian setup instructions](obsidian://open?vault=Main&file=Programming%2FMy%20programming%20setup)
-
