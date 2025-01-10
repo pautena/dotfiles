@@ -10,6 +10,7 @@ My personal programming environment
 * [Alacritty](https://github.com/jwilm/alacritty)
 * [zsh](https://www.zsh.org/)
 * [Oh My Zsh](https://ohmyz.sh/)
+* [Starship](https://starship.rs/)
 * [Neovim](https://github.com/neovim/neovim)
 * [Tmux](https://github.com/tmux/tmux)
 
