@@ -1,4 +1,4 @@
-.KEYBOARD=crkbd
+.KEYBOARD=crkbd/rev1
 .KEYMAP=pau_custom
 .KEYMAP_PATH=~/qmk_firmware/keyboards/crkbd/keymaps/${.KEYMAP}
 .PATH=~/dotfiles/keyboard/corne/keymap
@@ -6,7 +6,7 @@
 
 setup-qmk:
 	qmk setup \
-	sudo cp /home/pau/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+	sudo cp ~/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
 
 init:
 	mkdir ${.KEYMAP_PATH}
