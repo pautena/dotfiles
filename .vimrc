@@ -16,8 +16,8 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
   " Themes
-  Plug 'dracula/vim', { 'as': 'dracula' }
-
+  Plug 'loctvl842/monokai-pro.nvim'
+  
   " Git
   Plug 'tpope/vim-fugitive'
   Plug 'sodapopcan/vim-twiggy'
@@ -88,7 +88,7 @@ call plug#end()
 let mapleader = " "
 
 " Theme
-colorscheme dracula
+colorscheme monokai-pro
 
 " Status bar & buffer access
 let g:airline_theme="deus"

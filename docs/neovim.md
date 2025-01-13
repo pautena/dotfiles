@@ -8,7 +8,10 @@ Vim text editor. Download [here](https://neovim.io/)
 
 [Instructions here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
-- Mac: TODO
+- Mac:
+```
+brew upgrade neovim
+```
 
 - Ubuntu: 
 
@@ -30,7 +33,18 @@ sudo apt-get install exuberant-ctags
 ```
 
 - **Node +12**
+
+## Plugins 
 - **Plugins manager**: [vim-plug](https://github.com/junegunn/vim-plug)
+- [Installation instructions](https://github.com/junegunn/vim-plug?tab=readme-ov-file#installation)
+
+1. Run
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+To install the plugins, enter Neovim and execute `:PlugInstall` in the command palette.
 
 ## Cheatsheet
 
