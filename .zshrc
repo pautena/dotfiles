@@ -32,9 +32,6 @@ export PATH="$PATH:/opt/homebrew/bin"
 
 export TERM="xterm-256color"
 
-# Tmux
-if [ "$TMUX" = "" ]; then tmux; fi
-
 # Setup Python Poetry
 export PATH="$HOME/.poetry/bin:$PATH"
 

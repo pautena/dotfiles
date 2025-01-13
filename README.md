@@ -12,7 +12,6 @@ My personal programming environment
 * [Oh My Zsh](https://ohmyz.sh/)
 * [Starship](https://starship.rs/)
 * [Neovim](https://github.com/neovim/neovim)
-* [Tmux](https://github.com/tmux/tmux)
 
 ## Documentation
 
