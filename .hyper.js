@@ -4,6 +4,7 @@ module.exports = {
     fontFamily: 'JetBrains Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     cursorColor: '#fff1f3',
     cursorShape: 'BEAM',
+    cursorBlink: true,
     foregroundColor: '#fff1f3',
     backgroundColor: '#2D2A2E',
     borderColor: '#ffffff',
@@ -28,7 +29,7 @@ module.exports = {
       lightWhite: '#fff1f3',
     },
   },
-  plugins: [],
+  plugins: ["hyperline"],
   keymaps: {
   },
 };
